@@ -13,6 +13,7 @@
 		2CB091D52B433A8500C3A096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB091D42B433A8500C3A096 /* Preview Assets.xcassets */; };
 		2CB091DC2B43418B00C3A096 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB091DB2B43418B00C3A096 /* CircleImage.swift */; };
 		2CB091DE2B4341EA00C3A096 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB091DD2B4341EA00C3A096 /* MapView.swift */; };
+		2CB091E02B43445700C3A096 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CB091DF2B43445700C3A096 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2CB091D42B433A8500C3A096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CB091DB2B43418B00C3A096 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2CB091DD2B4341EA00C3A096 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2CB091DF2B43445700C3A096 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		2CB091CC2B433A8400C3A096 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				2CB091E12B43448300C3A096 /* Resources */,
 				2CB091DB2B43418B00C3A096 /* CircleImage.swift */,
 				2CB091CD2B433A8400C3A096 /* LandmarksApp.swift */,
 				2CB091CF2B433A8400C3A096 /* ContentView.swift */,
@@ -71,6 +74,14 @@
 				2CB091D42B433A8500C3A096 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CB091E12B43448300C3A096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CB091DF2B43445700C3A096 /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			files = (
 				2CB091D52B433A8500C3A096 /* Preview Assets.xcassets in Resources */,
 				2CB091D22B433A8500C3A096 /* Assets.xcassets in Resources */,
+				2CB091E02B43445700C3A096 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
