@@ -83,6 +83,7 @@
 		2CB092212B4428BD00C3A096 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		2CB092232B44295700C3A096 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		2CB092252B442D2800C3A096 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		2CB092272B445C5300C3A096 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		2CB091C12B433A8400C3A096 = {
 			isa = PBXGroup;
 			children = (
+				2CB092272B445C5300C3A096 /* README.md */,
 				2CB091CC2B433A8400C3A096 /* Landmarks */,
 				2CB091CB2B433A8400C3A096 /* Products */,
 			);
