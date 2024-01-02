@@ -31,6 +31,7 @@
 		2CB092092B44108C00C3A096 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB092052B44108C00C3A096 /* HikeGraph.swift */; };
 		2CB0920A2B44108C00C3A096 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB092062B44108C00C3A096 /* HikeDetail.swift */; };
 		2CB0920B2B44108C00C3A096 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB092072B44108C00C3A096 /* HikeView.swift */; };
+		2CB0920E2B44160600C3A096 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB0920D2B44160600C3A096 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		2CB092052B44108C00C3A096 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		2CB092062B44108C00C3A096 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		2CB092072B44108C00C3A096 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		2CB0920D2B44160600C3A096 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				2CB091CF2B433A8400C3A096 /* ContentView.swift */,
 				2CB091F22B44046200C3A096 /* Badges */,
+				2CB0920C2B4415D400C3A096 /* Category */,
 				2CB091F12B44028800C3A096 /* Helper */,
 				2CB092032B44108C00C3A096 /* Hikes */,
 				2CB091F02B44027900C3A096 /* Landmarks */,
@@ -181,6 +184,14 @@
 				2CB092072B44108C00C3A096 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		2CB0920C2B4415D400C3A096 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0920D2B44160600C3A096 /* CategoryHome.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB091D02B433A8400C3A096 /* ContentView.swift in Sources */,
+				2CB0920E2B44160600C3A096 /* CategoryHome.swift in Sources */,
 				2CB092092B44108C00C3A096 /* HikeGraph.swift in Sources */,
 				2CB091FE2B440ABB00C3A096 /* Badge.swift in Sources */,
 				2CB091DE2B4341EA00C3A096 /* MapView.swift in Sources */,
