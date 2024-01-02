@@ -152,7 +152,6 @@
 				2CB0921E2B4426A000C3A096 /* PageView */,
 				2CB092152B441C3D00C3A096 /* Profile */,
 				2CB092212B4428BD00C3A096 /* FeatureCard.swift */,
-				2CB092232B44295700C3A096 /* PageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				2CB0921F2B4426BD00C3A096 /* PageViewController.swift */,
+				2CB092232B44295700C3A096 /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
